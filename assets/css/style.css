@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.titulo{
+    width: 100%;
+    background-color: lightblue;
+}
+.titulo h1{
+padding: 1.5rem;
+}
+.addTarea{
+    margin-top: 1rem;
+}
+.addTarea h4{
+    margin-bottom: 0.5rem;
+}
+.verificacionTarea{
+    margin: 0.5rem 0rem;
+}
+.addTarea input{
+    width: 60%;
+    height: 2rem;
+    transition: 0.5s;
+}
+.btnAddTarea{
+    padding: 0.5rem 2rem;
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+.contenedor{
+    display: flex;
+    margin-top: 2rem;
+}
+.contadoresTareas{
+    width: 50%;
+    margin-left: 0.5rem;
+}
+.tablaTareas{
+    border: 1px solid black;
+    background-color: lightgray;
+    text-align: center;
+}
+.encabezadoTabla{
+    padding: 0rem 2rem;
+    border: 1px solid black;
+    background-color: lightgreen;
+}
+.btnEliminar{
+    background-color: red;
+    padding: 2px 4px;
+    transition: 0.5;
+}
+
+
+.addTarea input:hover{
+    border: 2px solid black;
+    transition: 5s;
+}
+.btnAddTarea:hover{
+    background-color: lightgreen;
+    transition: 0.5;
+    color: black;
+}
+.btnEliminar:hover{
+    transition: 0.5s;
+    scale: 1.05;
+}
